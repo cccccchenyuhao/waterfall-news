@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+ 
+ .clearfix::after {
+     content: '';
+     display: block;
+     clear: both;
+ }
+
+ ul {
+     list-style: none;
+ }
+
+ .item-wrap {
+     width: 900px;
+     margin: 0 auto;
+     position: relative;
+     text-align: center;
+ }
+
+ .item {
+     margin: 20px;
+     border-radius: 4px;
+     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+     position: absolute;
+     width: 280px;
+ }
+
+ .item img {
+     padding: 10px;
+     width: 260px;
+     vertical-align: middle;
+ }
+
+ .title {
+     padding: 10px;
+ }
